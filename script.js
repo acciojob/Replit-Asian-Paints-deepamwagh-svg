@@ -10,7 +10,7 @@ gridContainer.appendChild(div);
 }
 
 const changeBtn = document.getElementById('change_button');
-const resetBtn = document.getElementById('Reset');
+const resetBtn = document.getElementById('reset_button');
 
 changeBtn.addEventListener('click', () => {
 const blockId = document.getElementById('block_id').value;
